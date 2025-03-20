@@ -1,0 +1,18 @@
+Run ID = led_off_ptfe_metal_ptfe_better_1
+Start time = Mon Mar 17 14:58:33 2025
+Stop time = Mon Mar 17 15:00:13 2025
+
+CH0@DT5730S_59483
+	Energy calibration: C0 = 0; C1 = 1; C2 = 0; unit = keV
+	Real time = 0:01:40.160
+	Live time = 0:01:40.160
+	Dead time = 0.00 %
+	Input counts = 10017; average rate (cps) = 100.01±1
+	Pile up counts = 0; average rate (cps) = 0
+	Saturation counts = 0; average rate (cps) = 0
+	E cut counts = 0; average rate (cps) = 0
+	PSD cut counts = 0; average rate (cps) = 0
+	T cut counts = 0; average rate (cps) = 0
+	Singles counts = 0; average rate (cps) = 0
+	Output counts = 10017; average rate (cps) = 100.01±1
+

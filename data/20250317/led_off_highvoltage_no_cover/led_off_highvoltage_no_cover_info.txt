@@ -1,0 +1,18 @@
+Run ID = led_off_highvoltage_no_cover
+Start time = Mon Mar 17 14:40:19 2025
+Stop time = Mon Mar 17 14:41:59 2025
+
+CH0@DT5730S_59483
+	Energy calibration: C0 = 0; C1 = 1; C2 = 0; unit = keV
+	Real time = 0:01:40.173
+	Live time = 0:01:40.173
+	Dead time = 0.00 %
+	Input counts = 10018; average rate (cps) = 100.01±1
+	Pile up counts = 0; average rate (cps) = 0
+	Saturation counts = 9; average rate (cps) = 0.09±0.03
+	E cut counts = 0; average rate (cps) = 0
+	PSD cut counts = 0; average rate (cps) = 0
+	T cut counts = 0; average rate (cps) = 0
+	Singles counts = 0; average rate (cps) = 0
+	Output counts = 10009; average rate (cps) = 99.92±1
+

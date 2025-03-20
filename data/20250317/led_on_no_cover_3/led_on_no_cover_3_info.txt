@@ -1,0 +1,18 @@
+Run ID = led_on_no_cover_3
+Start time = Mon Mar 17 13:54:10 2025
+Stop time = Mon Mar 17 13:54:40 2025
+
+CH0@DT5730S_59483
+	Energy calibration: C0 = 0; C1 = 1; C2 = 0; unit = keV
+	Real time = 0:00:30.363
+	Live time = 0:00:30.363
+	Dead time = 0.00 %
+	Input counts = 3037; average rate (cps) = 100±1.8
+	Pile up counts = 0; average rate (cps) = 0
+	Saturation counts = 0; average rate (cps) = 0
+	E cut counts = 0; average rate (cps) = 0
+	PSD cut counts = 0; average rate (cps) = 0
+	T cut counts = 0; average rate (cps) = 0
+	Singles counts = 0; average rate (cps) = 0
+	Output counts = 3037; average rate (cps) = 100±1.8
+
