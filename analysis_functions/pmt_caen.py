@@ -83,7 +83,7 @@ def find_time_and_energy_of_peaks(datarow: pd.Series, baseline: float, std: floa
             peak_index_list.append(_index)
         if value < baseline + std*n_threshold_stds and peak_current:
             # value is below threshold, peak ended
-            energy_and_time_list.append([energy_sum, mean(peak_index_list)])
+            energy_and_time_list.append([mean(peak_index_list), energy_sum])
             peaks.append(current_peak_list)
             current_peak_list = []
             peak_index_list = []
