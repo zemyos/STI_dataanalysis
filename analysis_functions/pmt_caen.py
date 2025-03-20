@@ -63,7 +63,13 @@ def find_baseline(datarow: pd.Series, max_std: float = 3.5, window_size: int = 3
         return False, datarow.mean(), datarow.std()
 
 
-def find_time_and_energy_of_peaks(datarow: pd.Series, baseline: float, std: float, n_threshold_stds=10) -> (list, list):
+def find_time_and_energy_of_peaks(
+        datarow: pd.Series,
+        baseline: float,
+        std: float,
+        n_threshold_stds = 10,
+        time_unit: float = 2.0,
+) -> (list, list):
     # define variables and prepare lists
     peaks = []
     current_peak_list = []
@@ -83,7 +89,7 @@ def find_time_and_energy_of_peaks(datarow: pd.Series, baseline: float, std: floa
             peak_index_list.append(_index)
         if value < baseline + std*n_threshold_stds and peak_current:
             # value is below threshold, peak ended
-            energy_and_time_list.append([mean(peak_index_list), energy_sum])
+            energy_and_time_list.append([mean(peak_index_list)*time_unit, energy_sum])
             peaks.append(current_peak_list)
             current_peak_list = []
             peak_index_list = []
