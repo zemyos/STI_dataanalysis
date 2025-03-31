@@ -1,0 +1,18 @@
+Run ID = 250321_led_on_ptfe_block_2
+Start time = Fri Mar 21 14:42:24 2025
+Stop time = Fri Mar 21 14:50:44 2025
+
+CH0@DT5730S_59483
+	Energy calibration: C0 = 0; C1 = 1; C2 = 0; unit = keV
+	Real time = 0:08:20.171
+	Live time = 0:08:20.063
+	Dead time = 0.02 %
+	Input counts = 250142; average rate (cps) = 500.11±1
+	Pile up counts = 0; average rate (cps) = 0
+	Saturation counts = 20; average rate (cps) = 0.04±0.0089
+	E cut counts = 0; average rate (cps) = 0
+	PSD cut counts = 0; average rate (cps) = 0
+	T cut counts = 0; average rate (cps) = 0
+	Singles counts = 0; average rate (cps) = 0
+	Output counts = 250068; average rate (cps) = 499.96±1
+
