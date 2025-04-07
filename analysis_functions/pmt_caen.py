@@ -102,7 +102,8 @@ def find_time_and_energy_of_peaks(
 
 
 if __name__ == '__main__':
-    data = load_pmt_data(r'../data/20250317/led_on_highvoltage_ptfe_block_1/RAW/DataR_CH0@DT5730S_59483_led_on_highvoltage_ptfe_block_1.CSV')
+    data = load_pmt_data(
+        r'../data/20250317/led_on_highvoltage_ptfe_block_1/RAW/DataR_CH0@DT5730S_59483_led_on_highvoltage_ptfe_block_1.CSV')
     bad_counter = 0
     for _, datarow in data.iterrows():
         good, baseline, std = find_baseline(datarow)
